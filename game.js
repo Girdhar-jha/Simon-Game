@@ -31,7 +31,7 @@ $(".btn").click(function(event) {
 });
 
 function playSound(bomb) {
-  var io = "sounds/" + bomb + ".mp3";
+  var io = bomb + ".mp3";
   var audio = new Audio(io);
   audio.play();
 }
